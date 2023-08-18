@@ -43,6 +43,33 @@
             background-color: #333;
             color: white;
         }
+                .timeline {
+            list-style: none;
+            padding: 0;
+        }
+
+        .timeline li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2em;
+        }
+
+        .timeline-content {
+            flex: 1;
+            padding: 1em;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        .timeline-year {
+            flex-basis: 100px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -52,21 +79,48 @@
     </header>
     <nav>
         <a href="#about">About me</a>
-        <a href="#research">Research Area</a>
-        <a href="#publications">Education</a>
-        <a href="#contact">Contact me</a>
+        <a href="#Education">Education</a>
+        <a href="#Project">Project & Research experience</a>
+        <a href="#contact">Skills</a>
+        <a href="#Pangborn">15th Pangborn Poster</a>
     </nav>
     <main>
         <section id="about">
             <h2>About me</h2>
-            <p>Hi, I'm Yuchen Zhang, a Sensory Science 2nd-year PhD candidate at the University of Nottingham. 
+            <p>Hi, I'm Yuchen Zhang, a Sensory Science 2nd-year PhD candidate at the University of Nottingham (Email: stxyz53@nottingham.ac.uk). 
                 My current research area is understanding consumer emotional responses towards sustainable foods, such as plant-based, 
-                edible insect-based and lab-grown-based meat. Nice to meet you! 
-            </p>
+                edible insect-based and lab-grown-based meat. Nice to meet you!</p>
         </section>
-        <section id="research">
-            <h2>Research area</h2>
-            <p>介绍你感兴趣的研究领域和方向。</p>
+        <section id="Education">
+            <h2>Education</h2>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-content">
+                        <h3>PhD</h3>
+                        <p>University of Nottingham, UK<br>Sensory Science<br>FEB. 2026</p>
+                    </div>
+                    <div class="timeline-year">
+                        2026
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3>Master of Research degree</h3>
+                        <p>University of Nottingham, UK<br>Sensory Science<br>FEB. 2022</p>
+                    </div>
+                    <div class="timeline-year">
+                        2022
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3>Bachelor's degree</h3>
+                        <p>University of Reading, UK<br>BSc Food Technology with Bioprocessning<br>SEP. 2020</p>
+                    </div>
+                    <div class="timeline-year">
+                        2020
+                    </div>
+            </ul>
         </section>
         <section id="publications">
             <h2>发表论文</h2>
